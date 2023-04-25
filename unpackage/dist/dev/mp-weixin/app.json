@@ -1,0 +1,108 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Login/Login",
+    "pages/Convenience/Convenience",
+    "pages/HeardEvent/HeardEvent",
+    "pages/Find/Find",
+    "pages/My/My",
+    "pages/addDay/addDay",
+    "pages/commemorationDay/commemorationDay",
+    "pages/updateDay/updateDay",
+    "pages/millionStuff/millionStuff",
+    "pages/stuffItem/stuffItem",
+    "pages/addEvent/addEvent",
+    "pages/eventItem/eventItem",
+    "pages/updateEvent/updateEvent",
+    "pages/detail/detail",
+    "pages/addLikeSong/addLikeSong",
+    "pages/addSongList/addSongList",
+    "pages/Convenience/CardOne/CardOne",
+    "pages/Convenience/CardTow/CardTow",
+    "pages/Convenience/CardThree/CardThree",
+    "pages/Convenience/CardFour/CardFour",
+    "pages/Convenience/CardFour/setCountDownDay/setCountDownDay",
+    "pages/ucenter/ucenter",
+    "pages/ucenter/settings/settings",
+    "pages/ucenter/read-news-log/read-news-log",
+    "pages/TogetherDay/TogetherDay"
+  ],
+  "subPackages": [
+    {
+      "root": "uni_modules/uni-feedback",
+      "pages": [
+        "pages/opendb-feedback/opendb-feedback"
+      ]
+    },
+    {
+      "root": "uni_modules/uni-id-pages/pages",
+      "pages": [
+        "userinfo/userinfo",
+        "login/login-withoutpwd",
+        "login/login-withpwd",
+        "userinfo/deactivate/deactivate",
+        "userinfo/bind-mobile/bind-mobile",
+        "login/login-smscode",
+        "register/register",
+        "retrieve/retrieve",
+        "common/webview/webview",
+        "userinfo/change_pwd/change_pwd",
+        "register/register-by-email",
+        "retrieve/retrieve-by-email",
+        "userinfo/set-pwd/set-pwd"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-starter",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": false,
+    "rpxCalcMaxDeviceWidth": 375,
+    "rpxCalcBaseDeviceWidth": 375
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#007AFF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/Home/Home",
+        "iconPath": "static/icon/首页.png",
+        "selectedIconPath": "static/icon/首页(1).png"
+      },
+      {
+        "text": "便利贴",
+        "pagePath": "pages/Convenience/Convenience",
+        "iconPath": "static/icon/记录.png",
+        "selectedIconPath": "static/icon/记录(1).png"
+      },
+      {
+        "text": "心事",
+        "pagePath": "pages/HeardEvent/HeardEvent",
+        "iconPath": "static/icon/喜欢.png",
+        "selectedIconPath": "static/icon/喜欢(1).png"
+      },
+      {
+        "text": "发现",
+        "pagePath": "pages/Find/Find",
+        "iconPath": "static/icon/搜索.png",
+        "selectedIconPath": "static/icon/搜索(1).png"
+      },
+      {
+        "pagePath": "pages/ucenter/ucenter",
+        "iconPath": "static/icon/我的.png",
+        "selectedIconPath": "static/icon/我的(1).png",
+        "text": "我的"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "usingComponents": {}
+}

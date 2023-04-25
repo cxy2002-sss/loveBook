@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" style="{{'justify-content:center;'+('width:'+(width)+';')+('height:'+(height)+';')+('border-radius:'+(borderRadius)+';')}}" bindtap="__e"><block wx:if="{{cSrc}}"><image style="{{'width:'+(width)+';'+('height:'+(height)+';')+('border-radius:'+(borderRadius)+';')}}" src="{{cSrc}}" mode="{{mode}}"></image></block></view>

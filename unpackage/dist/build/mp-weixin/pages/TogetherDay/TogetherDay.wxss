@@ -1,0 +1,1 @@
+.setDay{display:flex;align-items:center;justify-content:space-between;background:#fff}.setDay view:nth-child(1){margin:20rpx;width:200rpx}.setDay .day{display:flex;align-items:center}.submit{background-color:#6365b7;color:#fff;margin-top:30rpx}
